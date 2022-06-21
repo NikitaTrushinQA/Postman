@@ -7,12 +7,12 @@ Protocol: http
 IP: 162.55.220.72
 Port: 5005
 
-EP_1
+task1_Get_method
 Method: GET
 EndPoint: /get_method
 request url params: 
- name: str
- age: int
+ name: Nikita
+ age: 29
 
 response: 
 [
@@ -22,13 +22,13 @@ response:
 
 ==================
 
-EP_2
+task2_user_info_3
 Method: POST
 EndPoint: /user_info_3
 request form data: 
- name: str
- age: int
- salary: int
+ name: Nikita
+ age: 29
+ salary: 1000
 
 response: 
 {'name': name,
@@ -40,13 +40,13 @@ response:
 
 ==================
 
-EP_3
+task3_object_info_1
 Method: GET
 EndPoint: /object_info_1
 request url params: 
- name: str
- age: int
- weight: int
+ name: Nikita
+ age: 29
+ weight: 95
 
 response: 
 {'name': name,
@@ -57,13 +57,13 @@ response:
 
 ==================
 
-EP_4
+task4_object_info_2
 Method: GET
 EndPoint: /object_info_2
 request url params: 
- name: str
- age: int
- salary: int
+ name: Nikita
+ age: 29
+ salary: 1000
 
 response: 
 {'start_qa_salary': salary,
@@ -79,13 +79,13 @@ response:
 
 ==================
 
-EP_5
+task5_object_info_3
 Method: GET
 EndPoint: /object_info_3
 request url params: 
- name: str
- age: int
- salary: int
+ name: Nikita
+ age: 29
+ salary: 1000
 
 response: 
 {'name': name,
@@ -102,7 +102,7 @@ response:
 
 ==================
 
-EP_6
+task6_object_info_4
 Method: GET
 EndPoint: /object_info_4
 request url params: 
@@ -118,7 +118,7 @@ response:
 
 ==================
 
-EP_7
+task7_user_info_2
 Method: POST
 EndPoint: /user_info_2
 request form data: 
